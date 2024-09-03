@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi StoryMap</title>
+    <link rel="stylesheet" href="lib/leaflet.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        #map {
+            position: relative;
+        }
+        #backToIndexButton {
+            position: absolute;
+            top: 10px;
+            left: 50px;
+            z-index: 1000;
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="content">
+            <div id="slides">
+                <!-- Diapositiva del índice -->
+                <div class="slide" data-lat="4.638878" data-lng="-74.085126" data-zoom="13">
+                    <h2>Índice</h2>
+                    <!-- Aquí agregamos la imagen -->
+                    <!-- <img src="assets/images/imagen_index.png" alt="Imagen de Índice" style="width: 100%; height: auto;">-->
+                    <div id="index">
+                        <!-- Botones del índice se generarán dinámicamente con JavaScript -->
+                    </div>
+                </div>
+
+                <div class="slide" data-lat="4.638878" data-lng="-74.085126" data-zoom="13">
+                    <p>En el estudio diagnóstico de la situación económica y financiera de las mujeres que ejercen actividades productivas en 
+                    los <a href="https://www.culturarecreacionydeporte.gov.co/es/economia-estudios-y-politica/distritos-creativos">Distritos Creativos</a> participaron:</p>
+                    <img src="assets/images/diapo1.jpg" alt="Imagen 1">
+                    <p>Los distritos con mayor participación fueron:</p>
+                </div>
+
+                <div class="slide" data-lat="4.598974" data-lng="-74.077068" data-zoom="15.5">
+                    <h2>Distrito Creativo La Candelaria- Santa fe</h2>
+                    <img src="assets/images/diapo2.jpg" alt="Imagen 2">
+                    <img src="assets/images/diapo3.jpg" alt="Imagen 2">
+                    <p>Feria Mentes sin Espacio- Distrito Creativo la Candelaria- Santa Fe</p>
+                </div>
+
+                <div class="slide" data-lat="4.652461" data-lng="-74.063815" data-zoom="16">
+                    <h2>Distrito Creativo Chapinero</h2>
+                    <img src="assets/images/diapo4.jpg" alt="Imagen 1">
+                    <img src="assets/images/diapo5.jpg" alt="Imagen 1">
+                    <p>Festival VEAN - Distrito Creativo Chapinero</p>
+                </div>
+
+                <div class="slide" data-lat="4.627577" data-lng="-74.074106" data-zoom="16">
+                    <h2>Distrito Creativo Teusaquillo</h2>
+                    <img src="assets/images/diapo6.jpg" alt="Imagen 2">
+                    <img src="assets/images/diapo7.jpg" alt="Imagen 2">
+                    <p>Lanzamiento Coffe Master 2022- Distrito Creativo Teusaquillo</p>
+                </div>
+
+                <div class="slide" data-lat="4.693918" data-lng="-74.031031" data-zoom="15">
+                    <h2>Distrito Creativo Usaquén</h2>
+                    <img src="assets/images/diapo8.jpg" alt="Imagen 2">
+                    <img src="assets/images/diapo9.jpg" alt="Imagen 2">
+                    <p>Transformaciones Culturales para la paz</p>
+                </div>
+
+                <div class="slide" data-lat="4.674355" data-lng="-74.142454" data-zoom="16">
+                    <h2>Distrito Creativo Fontibón</h2>
+                    <img src="assets/images/diapo10.jpg" alt="Imagen 2">
+                    <img src="assets/images/diapo10_2.jpg" alt="Imagen 2">
+                    <p> </p>
+                </div>
+                
+                <!-- Agrega más diapositivas según sea necesario -->
+            </div>
+        </div>
+        <div id="map">
+            <div id="backToIndexButton">Volver al Índice</div>
+        </div>
+    </div>
+    <script src="lib/leaflet.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

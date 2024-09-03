@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    width: 40%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    margin-bottom: 30px; /* Aumenta el margen inferior para más separación */
+    padding: 20px; /* Añade un relleno interno para espaciar el contenido */
+    border-radius: 10px; /* Bordes redondeados para las diapositivas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto de elevación */
+    background-color: #ffffff; /* Color de fondo blanco para las diapositivas */
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+}
+
+.slide:hover {
+    background-color: #f0f0f0; /* Cambio de color de fondo al pasar el ratón */
+}
+
+.slide h2 {
+    margin-top: 0;
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px; /* Añadir margen superior para espaciar de otros elementos */
+}
