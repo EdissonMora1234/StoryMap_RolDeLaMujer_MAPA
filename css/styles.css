@@ -31,7 +31,7 @@ body, html {
     padding: 20px; /* Añade un relleno interno para espaciar el contenido */
     border-radius: 10px; /* Bordes redondeados para las diapositivas */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto de elevación */
-    background-color: #ffffff; /* Color de fondo blanco para las diapositivas */
+    background-color: #f8f5e9; /* Color de fondo blanco para las diapositivas */
     transition: background-color 0.3s ease; /* Transición suave para el hover */
 }
 
