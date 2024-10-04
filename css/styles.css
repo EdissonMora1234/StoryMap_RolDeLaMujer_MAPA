@@ -44,7 +44,7 @@ body, html {
 }
 
 .slide img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
     border-radius: 5px;
     margin-top: 10px; /* Añadir margen superior para espaciar de otros elementos */
