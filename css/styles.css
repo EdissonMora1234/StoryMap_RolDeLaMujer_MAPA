@@ -13,7 +13,7 @@ body, html {
 }
 
 #content {
-    width: 40%;
+    width: 55%;
     height: 100%;
     overflow-y: auto;
     padding: 20px;
@@ -22,7 +22,7 @@ body, html {
 }
 
 #map {
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 
